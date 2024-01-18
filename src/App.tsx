@@ -360,9 +360,9 @@ function App() {
           <span className="visually-hidden"></span>
         </div>
       </div>}
-      <div className='p-3 w-50 box-shadow align-items-center d-flex flex-column'>
+      <div className='p-3 w-50 box-shadow align-items-center d-flex flex-column'  style={{ maxWidth: '600px', minWidth: '350px' }}>
         <form onSubmit={handleSubmit(onSubmit)} className='justify-content-center align-items-center d-flex flex-column'>
-          <div className='row text-center' style={{ maxWidth: '600px', minWidth: '450px' }}>
+          <div className='row text-center' style={{ maxWidth: '600px', minWidth: '250px' }}>
             <h3>Conversor de Moedas REACTJS</h3>
             <hr></hr>
             <label className='mb-3'>Selecione um pais</label>
